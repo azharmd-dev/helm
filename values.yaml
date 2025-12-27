@@ -1,6 +1,6 @@
 deployment:
   replicas: 3
-  imageVersion: stable-alpine3.23-perl
+  imageVersion: stable-alpine3.23
 service:
   type: LoadBalancer
   servicePort: 80
