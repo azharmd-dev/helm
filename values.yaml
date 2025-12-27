@@ -1,0 +1,8 @@
+deployment:
+  replicas: 3
+  imageVersion: stable-alpine3.23-perl
+service:
+  type: LoadBalancer
+  servicePort: 80
+common:
+  project: robomart
