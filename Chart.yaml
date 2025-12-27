@@ -1,0 +1,9 @@
+# apiVersion: The chart API version (required)
+# name: The name of the chart (required)
+# version: The version of the chart (required)
+
+apiVersion: v2
+name: nginx
+version: 1.0.0
+description: Nginx helm chart
+appVersion: latest
